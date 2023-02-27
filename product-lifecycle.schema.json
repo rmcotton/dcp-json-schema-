@@ -25,6 +25,13 @@
               "null"
           ],
           "description": "Overstock threshold"
-       }  
+       },
+       "expiration_date" : {
+           "type" : [
+              "string",
+              "null"
+          ],
+           "format" : "date"
+       }
     }
 }
