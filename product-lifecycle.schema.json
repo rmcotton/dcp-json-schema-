@@ -10,6 +10,21 @@
           ],
           "default": false,
           "description": "Obsolete"
-      }
+      },
+       "discontinued": {
+          "type": [
+              "boolean",
+              "null"
+          ],
+          "default": false,
+          "description": "Discontinued"
+       },
+        "overstock_threshold": {
+          "type": [
+              "integer",
+              "null"
+          ],
+          "description": "Overstock threshold"
+       }  
     }
 }
